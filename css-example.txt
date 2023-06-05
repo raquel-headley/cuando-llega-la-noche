@@ -1,0 +1,88 @@
+/* If screen size is more than 1000px wide */
+@media screen and (min-width: 700px) {
+  .outerContainer {
+    min-height:100vh;
+  }
+.full_screen_video {
+    position: fixed;
+    width: 100vw;
+    /*left:5vw;
+    right:5vw;*/
+    top:5vh;
+    bottom:5vh;
+    
+/*     min-height: 100vh; */
+    /* max-height: 100%; */
+     display: block;
+    margin: 0 auto; 
+    /* margin-left: 50vw;
+    transform: translate(-50%); */
+    -webkit-animation: fadein 1s; 
+    -moz-animation: fadein 1s; 
+     -ms-animation: fadein 1s; 
+      -o-animation: fadein 1s; 
+         animation: fadein 1s;
+         z-index:-1;
+    }
+.buttons{
+  font-family: 'pecotouline.ttf',sans-serif;
+  background:none;
+  color:white;
+  font-size:1em;
+}
+.buttons:hover{
+  color:rgb(200,200,200);
+  filter: blur(2px);
+  transition filter 0.3s;
+  transition color 0.3s; 
+}
+    .choice {
+    font-size: 3vw;
+  }
+  }
+/* If screen size is 1000px wide, or less, */
+@media screen and (max-width: 700px) {
+    .outerContainer {
+    min-height:100%;
+  }
+.full_screen_video {
+    position: fixed;
+    width:100vw;
+    /*top:5vh;*/
+    /*left:5vw ; 
+    right:5vw;*/
+    top:30vh;
+    bottom:30vh;
+     display: block;
+    margin: 0 auto;
+/*   min-height: 100vh; */
+    /* margin-left: 50vw;
+    transform: translate(-50%); */
+    -webkit-animation: fadein 1s; 
+    -moz-animation: fadein 1s; 
+     -ms-animation: fadein 1s; 
+      -o-animation: fadein 1s; 
+         animation: fadein 1s;
+         z-index:-1;
+    }
+.buttons{
+  font-family: 'pecotouline.ttf',sans-serif;
+  background:none;
+  color:white;
+  font-size:0.75em;
+}
+.buttons:hover{
+  color:rgb(200,200,200);
+  filter: blur(2px);
+  transition filter 0.3s;
+  transition color 0.3s;
+}
+}
+
+
+
+
+how to make buttons bigger depending on screen size
+
+full screen buttons
+
